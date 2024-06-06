@@ -1,0 +1,310 @@
+
+/* Estilo para os links do cabeçalho */
+.header-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #333; /* Cor do texto do link */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Transição suave da cor do texto */
+}
+
+.header-links a:hover {
+    color: #ff6347; /* Cor do texto do link ao passar o mouse */
+}
+
+
+
+/* Definindo estilos para o corpo da página */
+body {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #f5f827;
+    padding: 10px 0; /* Adiciona espaçamento superior e inferior ao cabeçalho */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+/* Estilos para os itens da barra de navegação */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px 0 0 30px;
+}
+
+/* Estilos para os links na barra de navegação */
+nav a {
+    color: rgb(161, 245, 25);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+/************************************************/
+/* Estilos para o título da seção "Encomendas" */
+/************************************************/
+
+
+/* Estilos para a imagem do logo */
+.logo_padoca {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: yellow; /* Cor de fundo amarela para a área do logo */
+    padding: 10px; /* Adiciona algum espaçamento ao redor do logo se necessário */
+}
+
+.logo_padoca img {
+    margin-right: 400px; /* Ajuste a margem conforme necessário */
+    margin-left: 100px; 
+}
+
+
+
+/* Estilos para as células do cabeçalho */
+.tabela-encomendas th {
+    background-color: #f1a93b; /* Cor de fundo original */
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 15px; /* Ajuste o valor conforme necessário para aumentar o fundo */
+    font-weight: bold; /* Adiciona negrito ao texto */
+}
+
+.tabela-encomendas td {
+    border: 2px solid #e7be08;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Estilo para alternar as cores das linhas */
+.tabela-encomendas tbody tr:nth-child(even) {
+    background-color: #fbfcf5;
+}
+
+/* Estilo para a tabela de encomendas */
+.tabela-encomendas {
+    width: 80%;
+    margin: 0 auto; /* Adiciona margens automáticas para centralizar a tabela */
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.cor-encomendas {
+    color: #FFA500; /* Cor laranja para a palavra "Encomendas" */
+}
+
+.cor-encomendas2 {
+    color: #FFA500; /* Cor laranja para a palavra "Encomendas" */
+    margin-left: 5px;
+    margin-top: -50px;
+}
+
+/* Adicionando cor à palavra "Encomendas" e movendo para a direita */
+.titulo-container {
+    text-align: left;
+    margin-right: 190px; /* Ajuste conforme necessário */
+    margin-left: 190px; /* Ajuste conforme necessário */
+    margin-bottom: 5px; /* Adiciona espaçamento abaixo da frase */
+}
+
+
+/* Estilo para a linha divisória */
+.linha-divisoria {
+    border: 2px solid #eaee0c; /* Cor e estilo da linha */
+}
+
+
+
+
+
+/* Estilos para as células do cabeçalho da nova tabela de encomendas */
+.nova-tabela-encomendas th {
+    background-color: #f1a93b; /* Cor de fundo original */
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 15px; /* Ajuste o valor conforme necessário para aumentar o fundo */
+    font-weight: bold; /* Adiciona negrito ao texto */
+}
+
+/* Estilos para as células do corpo da nova tabela de encomendas */
+.nova-tabela-encomendas td {
+    border: 2px solid #e7be08;
+    text-align: left;
+    padding: 100px;
+}
+
+/* Estilo para alternar as cores das linhas da nova tabela de encomendas */
+.nova-tabela-encomendas tbody tr:nth-child(even) {
+    background-color: #fbfcf5;
+}
+
+/* Estilo para a nova tabela de encomendas */
+.nova-tabela-encomendas {
+    width: 50%;
+    margin: 0 auto; /* Adiciona margens automáticas para centralizar a tabela */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para a linha divisória da nova tabela de encomendas */
+.nova-tabela-encomendas .linha-divisoria {
+    border: 2px solid #eaee0c; /* Cor e estilo da linha */
+}
+
+.botao{
+    margin-left: 15px;
+}
+
+.form-nova-encomenda{
+    padding-left: 10px;
+}
+
+
+/************************************************************************************************************/
+/*                   IMAGEM DO LADO DO FORMULARIO                                                            /
+/************************************************************************************************************/
+
+img[title="croa"] {
+    
+    display: block; /* Faz com que a imagem seja exibida como bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    width: 500px; /* Define a largura da imagem como 300 pixels */
+    height: auto; /* Mantém a proporção original da imagem ajustando automaticamente a altura */
+    padding-left: 300px;
+     margin-bottom: -380px;
+     padding-bottom: 60px;
+     margin-top: -25px;
+  }
+  
+
+
+/************************************************************************************************************/
+/*                   CSS CATALOGO PRODUTOS                                                                   /
+/************************************************************************************************************/
+
+/* Adicione estilos para os itens do catálogo */
+.item-catalogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-catalogo img {
+    border: 1px solid #f8b016; /* Adicione uma borda para as imagens */
+    border-radius: 8px; /* Adicione bordas arredondadas para as imagens */
+}
+
+.nome-produto {
+   
+    margin-top: 5px;
+}
+
+
+
+/************************************************************************************************************/
+/*                   EFEITO PARA LINHA SUMIR DEVAGAR QUANDO DER UM DBL                                       /
+/************************************************************************************************************/
+.fadeOut{
+    opacity: 0;
+    transition: 1s;
+}
+
+
+/************************************************************************************************************/
+/*                 FOOTER                                                                   /
+/************************************************************************************************************/
+/* Estilos para o rodapé */
+footer {
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0; /* Alinha o rodapé à parte inferior da página */
+    width: 100%; /* Ocupa toda a largura da página */
+    text-align: center;
+    background-color: yellow; /* Cor de fundo do rodapé */
+    color: orange; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    font-weight: bold; /* Deixa o texto em negrito */
+    display: flex; /* Utiliza um layout flexível para alinhar itens na horizontal */
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: center; /* Centraliza horizontalmente os itens */
+}
+
+.logo_padoca_footer img {
+    margin-right: 10px; /* Adapte a margem conforme necessário */
+    height: 30px; /* Ajusta a altura da imagem conforme necessário */
+}
+
+/******************************/
+/*   ESTILIZAÇÃO DO FILTRAR   */
+/******************************/
+
+#filtra-tabela {
+    width: 11%;
+    height: 25px;
+    margin-bottom: 10px;
+  
+}
+
+.invisivel{
+    display: none;
+}
+
+.enviar {
+    /* Adiciona uma margem negativa à esquerda */
+    margin-left: 190px; /* Ajuste o valor conforme necessário */
+    margin-top: 25px;
+}
+
+
+
+#caixa-palavra {
+    font-size: 24px;
+    color: orange; /* cor preta */
+    font-weight: bold;
+    text-transform: uppercase; /* transforma o texto em maiúsculas */
+    margin-top: 20px;
+    margin-left: 800px;
+}
+
+.sobre {
+    color: #FFA500; /* Cor laranja para a palavra "Encomendas" */
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+     /* Estilos para a seção "Sobre nós" */
+     .sobre-nos {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .sobre-nos p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.6;
+    }

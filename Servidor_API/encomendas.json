@@ -1,0 +1,42 @@
+{
+    "encomendas_web":[
+        {
+            "nome-cliente": "Bruce",
+            "nome-produto": "Camiseta Oversized",
+            "quantidade": 5,
+            "valor-unitario": 100,
+            "total": 0
+        },
+          {
+            "nome-cliente": "Amélia",
+            "nome-produto": "Calça Jeans",
+            "quantidade": 2,
+            "valor-unitario": 200,
+            "total": 0
+        },
+          {
+            "nome-cliente": "Rafael",
+            "nome-produto": "Boné Fechado Aba Reta",
+            "quantidade": 3,
+            "valor-unitario": 150,
+            "total": 0
+        },
+          {
+            "nome-cliente": "Felipe",
+            "nome-produto": "Relógio",
+            "quantidade": 1,
+            "valor-unitario": 900,
+            "total": 0
+        },
+          {
+            "nome-cliente": "Gabriel",
+            "nome-produto": "Bermuda Cargo",
+            "quantidade": 5,
+            "valor-unitario": 100,
+            "total": 0
+        }
+    ]
+
+}
+
+ 

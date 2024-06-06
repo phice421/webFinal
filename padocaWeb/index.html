@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="estilo.css" rel="stylesheet">
+    <link href="img/logoelite.ico" rel="shortcut icon">
+    <title>Padaria Elite São Paulo</title>
+    <!-- Titulo-->
+</head>
+
+
+
+<body>
+    <header>
+        <div class="logo_padoca">
+            <img src="img/logoelite.png" title="Padaria e confeitaria" height="200" width="200" />
+
+            <ul class="header-links">
+                <li><a href="padoca.html">Padoca</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="index.html">Encomenda</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="encomenda">
+            <div class="titulo-container">
+                <h1 class="titulo-ganja cor-encomendas" 
+                onClick="this.innerHTML='Cliquei!'">ENCOMENDAS:</h1>
+                <hr class="linha-divisoria">
+
+                <label for="filtrar-tabela"> Filtrar:</label>
+                <input type="text" name="filtro" id="filtra-tabela" placeholder=" Digite o nome do cliente: ">
+            </div>
+
+
+            <!-- Tabela para as encomendas -->
+            <table id="tabela-encomendas" class="tabela-encomendas">
+         
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Valor Unitário</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Encomenda 1 -->
+                    <tr class="cliente">
+                        <td class="nome-cliente">João Silva</td>
+                        <td class="nome-produto">Pão Francês</td>
+                        <td class="quantidade">10</td>
+                        <td class="valor-unitario"> 3 </td>
+                        <td class="total">-</td>
+                    </tr>
+                    <!-- Encomenda 2 -->
+                    <tr class="cliente">
+                        <td class="nome-cliente">Maria Oliveira</td>
+                        <td class="nome-produto">Bolo de Chocolate</td>
+                        <td class="quantidade">10</td>
+                        <td class="valor-unitario">15</td>
+                        <td class="total">-</td>
+                    </tr>
+                    <!-- Encomenda 3 -->
+                    <tr class="cliente">
+                        <td class="nome-cliente">Carlos Souza</td>
+                        <td class="nome-produto">Broa de Milho</td>
+                        <td class="quantidade">20</td>
+                        <td class="valor-unitario"> 4</td>
+                        <td class="total">-</td>
+                    </tr>
+                    <!-- Encomenda 4 -->
+                    <tr class="cliente">
+                        <td class="nome-cliente">Ana Santos</td>
+                        <td class="nome-produto">Baguete Integral</td>
+                        <td class="quantidade">4</td>
+                        <td class="valor-unitario"> 50</td>
+                        <td class="total">-</td>
+                    </tr>
+                    <!-- Encomenda 5 -->
+                    <tr class="cliente">
+                        <td class="nome-cliente">Fernando Costa</td>
+                        <td class="nome-produto">Pão de Queijo</td>
+                        <td class="quantidade">10</td>
+                        <td class="valor-unitario">50</td>
+                        <td class="total">-</td>
+                    </tr>
+                    <!-- Adicione mais encomendas conforme necessário -->
+
+                    
+                </tbody>
+            </table>
+            <button id="buscar-encomendas" class="enviar">Buscar encomendas</button>
+            <br>
+    
+            <!-- Formulário para Nova Encomenda -->
+<table class="nova-tabela-encomendas">
+
+    <tr>
+        <td>
+            <img src="img/Croassant.jpg" title="croa" height="200" width="200" />
+            <h2 id="titulo-encomenda" class="cor-encomendas2" >Nova Encomenda:</h2>
+
+
+            <form id="form-nova-encomenda" class = "form-nova-encomenda" onsubmit="event.preventDefault(); adicionarEncomenda()">
+              
+       
+
+                <!-- Campos do formulário -->
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="produto">Produto:</label><br>
+                <input type="text" id="produto" name="produto" required><br><br>
+                
+                <label for="quantidade">Quantidade:</label><br>
+                <input type="number" id="quantidade" name="quantidade" min="1" required><br><br>
+                
+                <label for="valor_unitario">Valor Unitário:</label><br>
+                <input type="number" id="valor_unitario" name="valor_unitario" min="0.01" step="0.01" required><br><br>
+                
+                <input type="submit" value="Adicionar Encomenda" class = "botao">
+            
+            </form>
+            
+            
+        </td>
+    </tr>
+</table>
+    <!-- Fim do Formulário para Nova Encomenda -->
+
+        </section>
+    </main>
+
+    <script src="js/calculatotal.js"></script>
+    <script src="js/newtabela.js"></script>
+    <script src="js/filtrar.js"></script>
+    <script src="js/buscar_encomendas.js"></script>
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="logo_padoca_footer">
+        <img src="img/logoelite.png" title="Padaria e confeitaria" height="50" width="50" />
+    </div>
+    <p class="copyright">© 2024 Padaria Elite São Paulo. Todos os direitos reservados.</p>
+</footer>
+</body>
+
+</html>
